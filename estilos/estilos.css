@@ -97,13 +97,13 @@ main img{
 .left-content em h1{
     font-family: 'Satisfy', cursive;
     color: whitesmoke;
-    text-shadow: 3px 3px 3px #F1C232;
+    text-shadow: 3px 4px 3px #F1C232;
     font-size: 300%;
 }
 .left-content h1{
     font-family: 'Acme', sans-serif;
     color: whitesmoke;
-    text-shadow: 3px 3px 3px #F1C232;
+    text-shadow: 3px 4px 3px #F1C232;
     font-size: 300%;
 }
 .left-content h3{
@@ -836,7 +836,7 @@ body{
 .subtitulo{
     margin: 20px 20px 20px 20px;
     background-color: #B45F06;
-    background-image: linear-gradient( to left,#B45F06,#F1C232);
+    background-image: linear-gradient(to left,#B45F06,#f3c438);
     text-align: left;
     padding: 12px 25px 12px 25px ;
     border-style: ridge;
