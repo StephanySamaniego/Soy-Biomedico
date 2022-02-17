@@ -15,21 +15,24 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, label, input, a{
     font-family: 'Quicksand', sans-serif;
 }
+/*  
 header{
     background-color: #B45F06;
     height: 60px;
     width: 100%;
 }
-
+*/
 header img{
     float:left;
     width: 35%; 
     height: 60px;
 }
-.nav-m{
-    float: right;
-    width: 45%;
+  
+.navbars-p{
+    position: sticky;
+    top: 0;
 }
+/*
 .nav-m ul{
     list-style: none;
     font-size:0;
@@ -53,19 +56,14 @@ header img{
 .nav-m ul li:hover ul {
     display: block;
 }
-
-.nav-m a{
-    display: block;
-    text-decoration: none;
+*/
+.nav-link{
     color: #DDDDDD;
     font-size: 14px;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
 }
 
-nav a:hover{
-    color: black;
-}
 /* Header fin */
 
 /* Inicio */

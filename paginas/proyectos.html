@@ -18,17 +18,37 @@
 </head>
 <body>
     <!-- Logo y nav -->
-    <header>
-        <div> 
-            <a href="index.html"><img src="../Media/imagenes/logo.png" alt=""></a>
-            <nav class="nav-m">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./equipo.html">Equipo</a></li>
-                    <li><a href="./curiosidades.html">Curiosidades</a></li>
-                    <li><a href="./proyectos.html">Proyectos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
+    <header >
+        <div class="navbars-p">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="../index.html"><img src="../Media/imagenes/logo.png" alt="Logo" style="width:190px;"></a>
+            
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-end" style="margin-right:20px;"id="collapsibleNavbar">
+                <ul class="navbar-nav ">
+                    <li class="nav-item" style="margin-right:60px;">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item" style="margin-right:60px;">
+                    <a class="nav-link" href="./equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item" style="margin-right:60px;">
+                    <a class="nav-link" href="./curiosidades.html">Curiosidades</a>
+                    </li>
+                    <li class="nav-item" style="margin-right:60px;">
+                        <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item" style="margin-right:60px;">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
                 </ul>
+                </div>
             </nav>
         </div>
     </header><!-- Fin de logo y nav -->
@@ -39,51 +59,69 @@
         <strong><p data-aos="zoom-in-up" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></strong>
     </section>
     <br>
-    <section class="white-section">
-        <div class="subtitulo">
-            <h3>Proyectos innovadores de la semana</h3>
-        </div>
-        <br>
-        <div class="proyecto-titulo" data-aos="fade-up"
-        data-aos-anchor-placement="top-center" data-aos-duration="1500">
-            <em><h4>Proyecto 1</h4></em>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p>
-        </div>
-        <div class="box" data-aos="fade-up"
-        data-aos-anchor-placement="top-center" data-aos-duration="1500">
-            <div class="contenedor contenedor1">
-                <p><strong>Problemática: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
-            </div>
-            <div class="contenedor contenedor2">
-                <p><strong>Características: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
-            </div>
-            <div class="contenedor contenedor3">
-                <img src="../Media/imagenes/biomedica3.jpg">
-                <p>Para saber más acerca del proyecto, visita el link de referencia: </p><br>
-                <a class="btn" href="https://spectrum.ieee.org/augmented-reality-car-hud">Leer más</a>
-                <br>
-            </div>
-        </div>
-    
-        <div class="proyecto-titulo" data-aos="fade-up"
-        data-aos-anchor-placement="top-center" data-aos-duration="1500">
-            <em><h4>Proyecto 2</h4></em>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p>
-        </div>
-        
-        <div class="box" data-aos="fade-up"
-        data-aos-anchor-placement="top-center" data-aos-duration="1500">
-            <div class="contenedor contenedor1">
-                <p><strong>Problemática: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
-            </div>
-            <div class="contenedor contenedor2">
-                <p><strong>Características: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
-            </div>
-            <div class="contenedor contenedor3">
-                <img src="../Media/imagenes/biomedica3.jpg">
-                <p>Para saber más acerca del proyecto, visita el link de referencia: </p><br>
-                <a class="btn"href="https://spectrum.ieee.org/augmented-reality-car-hud">Leer más</a>
-                <br>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- Tab Nav -->
+                <div class="nav-wrapper position-relative mb-2">
+                    <ul class="nav nav-pills nav-fill flex-column flex-md-row" id="tabs-text" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-text-1-tab" data-toggle="tab" href="#tabs-text-1" role="tab" aria-controls="tabs-text-1" aria-selected="true">Proyecto 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-text-2-tab" data-toggle="tab" href="#tabs-text-2" role="tab" aria-controls="tabs-text-2" aria-selected="false">Proyecto 2</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End of Tab Nav -->
+                <!-- Tab Content -->
+                <div class="card">
+                    <div class="card-body p-0">
+                        <div class="tab-content" id="tabcontent1">
+                            <div class="tab-pane fade show active" id="tabs-text-1" role="tabpanel" aria-labelledby="tabs-text-1-tab">
+                                <div class="proyecto-titulo">
+                                    <em><h4>Proyecto 1</h4></em>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p>
+                                </div>
+                                <div class="box">
+                                    <div class="contenedor contenedor1">
+                                        <p><strong>Problemática: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
+                                    </div>
+                                    <div class="contenedor contenedor2">
+                                        <p><strong>Características: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
+                                    </div>
+                                    <div class="contenedor contenedor3">
+                                        <img src="../Media/imagenes/biomedica3.jpg">
+                                        <p>Para saber más acerca del proyecto, visita el link de referencia: </p><br>
+                                        <a class="btn" href="https://spectrum.ieee.org/augmented-reality-car-hud">Leer más</a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tabs-text-2" role="tabpanel" aria-labelledby="tabs-text-2-tab">
+                                <div class="proyecto-titulo" >
+                                    <em><h4>Proyecto 2</h4></em>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p>
+                                </div>
+                                <div class="box">
+                                    <div class="contenedor contenedor1">
+                                        <p><strong>Problemática: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
+                                    </div>
+                                    <div class="contenedor contenedor2">
+                                        <p><strong>Características: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci amet nihil officiis reprehenderit voluptatum fugit quas, omnis nostrum, molestias officia tempore vel impedit minima repellendus consequuntur mollitia. Sint, odio magni?</p><br>
+                                    </div>
+                                    <div class="contenedor contenedor3">
+                                        <img src="../Media/imagenes/biomedica3.jpg">
+                                        <p>Para saber más acerca del proyecto, visita el link de referencia: </p><br>
+                                        <a class="btn" href="https://spectrum.ieee.org/augmented-reality-car-hud">Leer más</a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Tab Content -->
             </div>
         </div>
     </section><!-- Fin de equipo-->
