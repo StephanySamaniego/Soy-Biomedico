@@ -381,6 +381,7 @@ body{
     }
     main{
         display: flex;
+        background-image: url(../Media/imagenes/layered-peaks-haikei\ \(1\).svg);
     } 
     main img{
         height:100vh;
@@ -393,6 +394,9 @@ body{
         width: 50%;
         height: 100vh;
         text-align: center;
+        background-image: url(../Media/imagenes/blob-haikei.svg);
+        background-position: center;
+        background-size: cover;
     }
     .contenido{
         display: flex;
@@ -592,6 +596,7 @@ body{
         height: 60px;
     }
     main{
+        width: 100%;
         display: flex;
     } 
     main img{
@@ -605,6 +610,9 @@ body{
         width: 50%;
         height: 100vh;
         text-align: center;
+        background-image: url(../Media/imagenes/blob-haikei.svg);
+        background-position: center;
+        background-size: cover;
     }
     .contenido{
         display: flex;
