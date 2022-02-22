@@ -814,7 +814,6 @@ body{
     background-image: linear-gradient(to left,#B45F06,#f3c438);
     text-align: left;
     padding: 12px 25px 12px 25px ;
-    border-style: ridge;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 110%;
@@ -916,7 +915,10 @@ body{
     border-radius: 15px;
     padding:20px 10px 20px 10px;
 }
-
+.carousel-inner img{
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
 
 
 /* ------------------------------------------------------------------------------------- */
@@ -1084,9 +1086,9 @@ footer{
 .footer-info p{
     text-align: justify;
 }
-.footer-info i{
+.socialm i{
     color: #DDDDDD;
-    font-size:30px;
+    font-size:23px;
     line-height: 50px;
     font-weight: bold;
     text-shadow: 0 0 10px #0000;
