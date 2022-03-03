@@ -3,6 +3,10 @@ $maincolor: #B45F06;
 $secondcolor: #F1C232;
 $fontsubtitulo: 'Acme', sans-serif;
 $ttransform: uppercase;
+@mixin sizes ($width,$height){
+    height: $height;
+    width: $width;
+}
 
 *{
     margin: 0;
@@ -19,17 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, label, input, a{
     font-family: 'Quicksand', sans-serif;
 }
-/*  
-header{
-    background-color: #B45F06;
-    height: 60px;
-    width: 100%;
-}
-*/
+
 header img{
     float:left;
-    width: 35%; 
-    height: 60px;
+    @include sizes(35%,60px);
 }
   
 .navbars-p{
@@ -48,13 +45,11 @@ header img{
 
 /* Inicio */
 main{
-    height: 100vh;
-    width: 100%;
+    @include sizes(100%,100vh);
     background-color:$maincolor;
     background-size: cover;
     img{
-        width: 80%; 
-        height: 50vh;
+        @include sizes(80%,50vh);
         text-align: center;     
     }
     .animated{
@@ -83,8 +78,7 @@ main{
     }
 }
 .left-content{
-    width: 45%; 
-    height: 50vh;
+    @include sizes(45%,50vh);
     padding-top: 8%;
     padding-bottom: 30%;
     text-align: center;
@@ -99,7 +93,7 @@ main{
         font-size: 300%;    
     }
     h1{
-        font-family: 'Acme', sans-serif;
+        font-family: $fontsubtitulo;
         color: whitesmoke;
         text-shadow: 3px 4px 3px $secondcolor;
         font-size: 300%;
@@ -128,8 +122,7 @@ body{
     /* INDEX */
     header img{
         float:left;
-        width: 50%; 
-        height: 60px;
+        @include sizes(50%,60px);
     }
     main{
         height: 100vh;
@@ -159,14 +152,12 @@ body{
         }
     }
     iframe{
-        width: 90%;
-        height: 75%;
+        @include sizes(90%,75%);
         text-align: center;
         margin:5%;
     }
     .portada{
-        width: 100%;
-        height:70%;
+        @include sizes(100%,70%);
         font-size: 80%;
         padding: 20%;
     }
@@ -200,9 +191,8 @@ body{
     /* INDEX */
     main{
         height: auto;
-        img{
-            height: 20vh;
-            width: 68%;    
+        img{ 
+            @include sizes(68%,20vh);   
         }
     }
     .right-content{
@@ -210,8 +200,7 @@ body{
         background-position: top;
     }
     .left-content{
-        width: 100%;
-        height: 80vh;
+        @include sizes(100%,80vh);
         text-align: center;
         font-size: 73%;
         padding: 47px;
@@ -238,14 +227,12 @@ body{
         font-size: 20px;
     }
     iframe{
-        width: 90%;
-        height: 75%;
+        @include sizes(90%,75%);
         text-align: center;
         margin:5%;
     }
     .portada{
-        width: 100%;
-        height:70%;
+        @include sizes(100%,70%);
         font-size: 85%;
         padding: 20%;
     }
@@ -253,8 +240,7 @@ body{
     .elemento{
         height: fit-content;
         img{
-            width: 25%;
-            height: 15%;    
+            @include sizes(25%,15%);  
         }
     }
     
@@ -329,8 +315,7 @@ body{
     }
     header img{
         float:left;
-        width: 24%; 
-        height: 60px;
+        @include sizes(24%,60px);
     }
     .left-content{
         h2{
@@ -351,12 +336,10 @@ body{
         }
     } 
     .right-content{
-        width: 50%;
-        height: 100vh;
+        @include sizes(50%,100vh);
     }
     .left-content{
-        width: 50%;
-        height: 100vh;
+        @include sizes(50%,100vh);
         text-align: center;
         background-image: url(../Media/imagenes/blob-haikei.svg);
         background-position: center;
@@ -367,8 +350,7 @@ body{
         justify-content:space-between; 
     }
     .left{
-        width: 50%;
-        height: fit-content;
+        @include sizes(50%,fit-content);
         text-align: center;
         align-self: center;
         img{
@@ -385,10 +367,7 @@ body{
         align-items: center;
         align-content: space-evenly;
     }
-    .item1{
-        width: 50%;
-    }
-    .item2{
+    .item1 , .item2{
         width: 50%;
     }
     
@@ -408,8 +387,7 @@ body{
     }
     /* EQUIPO */
     .portada{
-        width: 100%;
-        height:70%;
+        @include sizes(100%,70%);
         font-size: 90%;
         padding: 20%;
     }
@@ -503,15 +481,10 @@ body{
         display: flex;
         justify-content: space-evenly;
     }
-    .contenedor1{
+    .contenedor1, .contenedor2, .contenedor3{
         width: calc(100%/3);
     }
-    .contenedor2{
-        width: calc(100%/3);
-    }
-    .contenedor3{
-        width: calc(100%/3);
-    }
+    
     /* CONTACTO */
     .contacto form{
         padding: 30px 100px 30px 100px;
@@ -529,8 +502,7 @@ body{
     }
     header img{
         float:left;
-        width: 19%; 
-        height: 60px;
+        @include sizes(19%,60px);
     }
     main{
         width: 100%;
@@ -540,12 +512,10 @@ body{
         }
     } 
     .right-content{
-        width: 50%;
-        height: 100vh;
+        @include sizes(50%,100vh);
     }
     .left-content{
-        width: 50%;
-        height: 100vh;
+        @include sizes(50%,100vh);
         text-align: center;
         background-image: url(../Media/imagenes/blob-haikei.svg);
         background-position: center;
@@ -556,12 +526,10 @@ body{
         justify-content: space-evenly; 
     }
     .left{
-        width: 50%;
-        height: fit-content;
+        @include sizes(50%,fit-content);
         text-align: center;
         img{
-            width:100%;
-            height:100%;    
+            @include sizes(100%,100%);  
         }
     }
     .right{
@@ -627,8 +595,7 @@ body{
         padding-top: 11px;
     }
     .portada{
-        width: 100%;
-        height: 30vh;
+        @include sizes(100%,30vh);  
         padding: 10%;
     }
     
@@ -687,21 +654,16 @@ body{
         display: flex;
         justify-content: space-evenly;
     }
-    .contenedor1{
-        width: calc(100%/3);
-    }
-    .contenedor2{
-        width: calc(100%/3);
-    }
-    .contenedor3{
+    .contenedor1, .contenedor2 , .contenedor3{
         width: calc(100%/3);
     }
     .contenedor{
         height: fit-content;
+        img {
+            display: none;
+        }
     }
-    .contenedor img{
-       display: none;
-    }
+
     /* CONTACTO */
     .contacto form{
         padding: 30px 100px 30px 100px;
@@ -714,9 +676,8 @@ body{
 /* Acerca de nosotros */
 #acercade{
     background-color: #DDDDDD;
-    height: fit-content;
     padding: 20px 20px 20px 20px;
-    width: 100%;
+    @include sizes(100%,fit-content); 
 }
 .subtitulo{
     margin: 20px 20px 20px 20px;
@@ -730,8 +691,7 @@ body{
 }
 
 .left img{
-    width:100% ;
-    height:15%;
+    @include sizes(100%,15%); 
     align-content: center;
 }
 .right{
@@ -745,17 +705,12 @@ body{
         width: 100%;
         .item1{
             background-color: $secondcolor;
-            width: 100%;
-            height: auto;
+            @include sizes(100%,auto); 
             padding: 20px 20px 20px 20px;
             margin: 5px;    
         }
         .item2{
-            background-color: $secondcolor;
-            width: 100%;
-            height: auto;
-            padding: 20px 20px 20px 20px;
-            margin: 5px;    
+            @extend .item1;   
         }    
     }    
 }
@@ -815,9 +770,8 @@ body{
     }
 }
 .white-section{
-    width: 100%;
     background-color: #DDDDDD;
-    height: fit-content;
+    @include sizes(100%,fit-content); 
     padding: 20px 20px 20px 20px;
 }
 .caja{
@@ -835,8 +789,7 @@ body{
         padding-top:15px;    
     }
     img{
-        width: 60%;
-        height: 50%;
+        @include sizes(60%,50%); 
         border-radius: 5px;    
     }
     :hover{
@@ -866,16 +819,20 @@ body{
     padding: 0 8px;
     display: grid;
 }
-.curiosidad{
-    text-align: justify;
-    padding:10px;
-    background-color: $secondcolor;
-    box-shadow: 2px 2px 8px rgb(128, 128, 128);
-}
+
 .curio img{
     width: 100%;
     text-align: center;
     background-color: $secondcolor;
+}
+
+@for $in from 1 through 3 {
+    .curiosidad-#{$in} {
+        background-color: lighten($secondcolor, $in*5%);
+        text-align: justify;
+        padding:10px;
+        box-shadow: 2px 2px 8px rgb(128, 128, 128);
+    }
 }
 /* PROYECTOS */
 .proyecto-titulo h4{
@@ -961,7 +918,6 @@ footer{
     text-align: justify;
 }
 .socialm i{
-    color: #DDDDDD;
     font-size:23px;
     line-height: 50px;
     font-weight: bold;
@@ -971,10 +927,23 @@ footer{
 .copyright{
     text-align: center;
 }
+$redes:(
+    red1:#00acee,
+    red2:#3b5998,
+    red3:#662248,
+    red4:#0e76a8
+
+);
+/* Creamos el bucle para usar los valores del mapa */
+@each $red,$color in $redes{
+    .btns--#{$red}{
+        color: $color;
+    }
+}
+
 /* Icon de up */
 .subir{
-    height: 50px;
-    width: 50px;
+    @include sizes(50px,50px); 
     background-color:#DDDDDD;
     border:  2px solid $maincolor;
     border-radius: 50%;

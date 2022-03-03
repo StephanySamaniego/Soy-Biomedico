@@ -17,17 +17,10 @@ p, ul, label, input, a {
   font-family: "Quicksand", sans-serif;
 }
 
-/*  
-header{
-    background-color: #B45F06;
-    height: 60px;
-    width: 100%;
-}
-*/
 header img {
   float: left;
-  width: 35%;
   height: 60px;
+  width: 35%;
 }
 
 .navbars-p {
@@ -51,8 +44,8 @@ main {
   background-size: cover;
 }
 main img {
-  width: 80%;
   height: 50vh;
+  width: 80%;
   text-align: center;
 }
 main .animated {
@@ -80,8 +73,8 @@ main .animated {
   }
 }
 .left-content {
-  width: 45%;
   height: 50vh;
+  width: 45%;
   padding-top: 8%;
   padding-bottom: 30%;
   text-align: center;
@@ -124,8 +117,8 @@ body {
   /* INDEX */
   header img {
     float: left;
-    width: 50%;
     height: 60px;
+    width: 50%;
   }
 
   main {
@@ -160,15 +153,15 @@ body {
   }
 
   iframe {
-    width: 90%;
     height: 75%;
+    width: 90%;
     text-align: center;
     margin: 5%;
   }
 
   .portada {
-    width: 100%;
     height: 70%;
+    width: 100%;
     font-size: 80%;
     padding: 20%;
   }
@@ -218,8 +211,8 @@ body {
   }
 
   .left-content {
-    width: 100%;
     height: 80vh;
+    width: 100%;
     text-align: center;
     font-size: 73%;
     padding: 47px;
@@ -252,15 +245,15 @@ body {
   }
 
   iframe {
-    width: 90%;
     height: 75%;
+    width: 90%;
     text-align: center;
     margin: 5%;
   }
 
   .portada {
-    width: 100%;
     height: 70%;
+    width: 100%;
     font-size: 85%;
     padding: 20%;
   }
@@ -270,8 +263,8 @@ body {
     height: fit-content;
   }
   .elemento img {
-    width: 25%;
     height: 15%;
+    width: 25%;
   }
 
   .box2 {
@@ -356,8 +349,8 @@ body {
 
   header img {
     float: left;
-    width: 24%;
     height: 60px;
+    width: 24%;
   }
 
   .left-content h2 {
@@ -378,13 +371,13 @@ body {
   }
 
   .right-content {
-    width: 50%;
     height: 100vh;
+    width: 50%;
   }
 
   .left-content {
-    width: 50%;
     height: 100vh;
+    width: 50%;
     text-align: center;
     background-image: url(../Media/imagenes/blob-haikei.svg);
     background-position: center;
@@ -397,8 +390,8 @@ body {
   }
 
   .left {
-    width: 50%;
     height: fit-content;
+    width: 50%;
     text-align: center;
     align-self: center;
   }
@@ -418,11 +411,7 @@ body {
     align-content: space-evenly;
   }
 
-  .item1 {
-    width: 50%;
-  }
-
-  .item2 {
+  .item1, .right .items .item2, .item2 {
     width: 50%;
   }
 
@@ -445,8 +434,8 @@ body {
 
   /* EQUIPO */
   .portada {
-    width: 100%;
     height: 70%;
+    width: 100%;
     font-size: 90%;
     padding: 20%;
   }
@@ -561,15 +550,7 @@ body {
     justify-content: space-evenly;
   }
 
-  .contenedor1 {
-    width: 33.3333333333%;
-  }
-
-  .contenedor2 {
-    width: 33.3333333333%;
-  }
-
-  .contenedor3 {
+  .contenedor1, .contenedor2, .contenedor3 {
     width: 33.3333333333%;
   }
 
@@ -590,8 +571,8 @@ body {
 
   header img {
     float: left;
-    width: 19%;
     height: 60px;
+    width: 19%;
   }
 
   main {
@@ -603,13 +584,13 @@ body {
   }
 
   .right-content {
-    width: 50%;
     height: 100vh;
+    width: 50%;
   }
 
   .left-content {
-    width: 50%;
     height: 100vh;
+    width: 50%;
     text-align: center;
     background-image: url(../Media/imagenes/blob-haikei.svg);
     background-position: center;
@@ -622,13 +603,13 @@ body {
   }
 
   .left {
-    width: 50%;
     height: fit-content;
+    width: 50%;
     text-align: center;
   }
   .left img {
-    width: 100%;
     height: 100%;
+    width: 100%;
   }
 
   .right {
@@ -642,7 +623,7 @@ body {
     align-content: space-evenly;
   }
 
-  .item1 {
+  .item1, .right .items .item2 {
     width: 50%;
   }
 
@@ -709,8 +690,8 @@ body {
   }
 
   .portada {
-    width: 100%;
     height: 30vh;
+    width: 100%;
     padding: 10%;
   }
 
@@ -781,22 +762,13 @@ body {
     justify-content: space-evenly;
   }
 
-  .contenedor1 {
-    width: 33.3333333333%;
-  }
-
-  .contenedor2 {
-    width: 33.3333333333%;
-  }
-
-  .contenedor3 {
+  .contenedor1, .contenedor2, .contenedor3 {
     width: 33.3333333333%;
   }
 
   .contenedor {
     height: fit-content;
   }
-
   .contenedor img {
     display: none;
   }
@@ -814,8 +786,8 @@ body {
 /* Acerca de nosotros */
 #acercade {
   background-color: #DDDDDD;
-  height: fit-content;
   padding: 20px 20px 20px 20px;
+  height: fit-content;
   width: 100%;
 }
 
@@ -831,8 +803,8 @@ body {
 }
 
 .left img {
-  width: 100%;
   height: 15%;
+  width: 100%;
   align-content: center;
 }
 
@@ -847,21 +819,13 @@ body {
   padding: 20px;
   width: 100%;
 }
-.right .items .item1 {
+.right .items .item1, .right .items .item2 {
   background-color: #F1C232;
-  width: 100%;
   height: auto;
+  width: 100%;
   padding: 20px 20px 20px 20px;
   margin: 5px;
 }
-.right .items .item2 {
-  background-color: #F1C232;
-  width: 100%;
-  height: auto;
-  padding: 20px 20px 20px 20px;
-  margin: 5px;
-}
-
 /* Que es  */
 .que-es {
   padding: 20px 20px 20px 20px;
@@ -918,9 +882,9 @@ body {
 }
 
 .white-section {
-  width: 100%;
   background-color: #DDDDDD;
   height: fit-content;
+  width: 100%;
   padding: 20px 20px 20px 20px;
 }
 
@@ -941,8 +905,8 @@ body {
   padding-top: 15px;
 }
 .elemento img {
-  width: 60%;
   height: 50%;
+  width: 60%;
   border-radius: 5px;
 }
 .elemento :hover {
@@ -974,17 +938,31 @@ body {
   display: grid;
 }
 
-.curiosidad {
-  text-align: justify;
-  padding: 10px;
-  background-color: #F1C232;
-  box-shadow: 2px 2px 8px gray;
-}
-
 .curio img {
   width: 100%;
   text-align: center;
   background-color: #F1C232;
+}
+
+.curiosidad-1 {
+  background-color: #f3c94a;
+  text-align: justify;
+  padding: 10px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.curiosidad-2 {
+  background-color: #f4d062;
+  text-align: justify;
+  padding: 10px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.curiosidad-3 {
+  background-color: #f6d77a;
+  text-align: justify;
+  padding: 10px;
+  box-shadow: 2px 2px 8px gray;
 }
 
 /* PROYECTOS */
@@ -1080,7 +1058,6 @@ footer {
 }
 
 .socialm i {
-  color: #DDDDDD;
   font-size: 23px;
   line-height: 50px;
   font-weight: bold;
@@ -1090,6 +1067,23 @@ footer {
 
 .copyright {
   text-align: center;
+}
+
+/* Creamos el bucle para usar los valores del mapa */
+.btns--red1 {
+  color: #00acee;
+}
+
+.btns--red2 {
+  color: #3b5998;
+}
+
+.btns--red3 {
+  color: #662248;
+}
+
+.btns--red4 {
+  color: #0e76a8;
 }
 
 /* Icon de up */
