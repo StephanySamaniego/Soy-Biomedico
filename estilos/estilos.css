@@ -82,24 +82,28 @@ main .animated {
 }
 .left-content h2 {
   font-family: "Fira Sans", sans-serif;
+  margin: 20px;
 }
-.left-content em h1 {
+.left-content .italic-h1 {
   font-family: "Satisfy", cursive;
   color: whitesmoke;
   text-shadow: 3px 4px 3px #F1C232;
   font-size: 300%;
+  margin: 30px;
 }
 .left-content h1 {
   font-family: "Acme", sans-serif;
   color: whitesmoke;
   text-shadow: 3px 4px 3px #F1C232;
   font-size: 300%;
+  margin: 30px;
 }
 .left-content h3 {
   font-family: "Quicksand", sans-serif;
   padding: 0 20%;
   text-align: center;
   font-size: 130%;
+  margin: 40px;
 }
 .left-content a {
   background-color: #F1C232;
@@ -356,7 +360,7 @@ body {
   .left-content h2 {
     color: whitesmoke;
   }
-  .left-content em h1 {
+  .left-content .italic-h1 {
     color: black;
   }
   .left-content h1 {
@@ -811,6 +815,7 @@ body {
 .right {
   width: 100%;
   padding-top: 45px;
+  margin-bottom: 30px;
 }
 .right ul {
   padding-left: 50px;
@@ -1056,6 +1061,7 @@ input :focus {
 /* footer */
 footer {
   padding: 11px 10px 20px 10px;
+  margin-top: 20px;
 }
 
 .footer-info p {
