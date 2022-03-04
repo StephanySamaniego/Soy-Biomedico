@@ -840,6 +840,14 @@ body {
   text-align: justify;
   padding: 15px 20px 15px 20px;
 }
+.containers p {
+  margin-bottom: 20px;
+}
+.containers .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .btn {
   background-color: #F1C232;

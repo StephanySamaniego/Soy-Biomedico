@@ -728,6 +728,14 @@ body{
 .containers{
     text-align: justify;
     padding:15px 20px 15px 20px;
+    p{
+        margin-bottom: 20px;
+    }
+    .center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 .btn{
     background-color: $secondcolor;
