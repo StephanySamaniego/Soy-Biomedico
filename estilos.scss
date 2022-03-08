@@ -117,8 +117,6 @@ main{
          
     }
 }
-
-
 body{
     background-color: $maincolor;
 }
@@ -225,6 +223,7 @@ body{
     }
     .email {
         text-align: center;
+          
     }
     .footer-info h3{
         padding-bottom: 8px;
@@ -398,7 +397,7 @@ body{
     }
     .caja{
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3, 370px) ;
+        grid-template-rows: repeat(3, 400px) ;
     }
     .elemento{
         border: 10px;
@@ -554,7 +553,7 @@ body{
     }
     .caja{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows:repeat(2,370px) ;
+        grid-template-rows:repeat(2,460px) ;
     }
     /* EQUIPO */
     .elemento{
@@ -771,6 +770,7 @@ body{
     background-position: top;
     background-size: cover;
     text-align: center;
+    margin-bottom: 10px;
     h2{
         text-transform: $ttransform;
         color: #DDDDDD;
@@ -800,8 +800,8 @@ body{
     background-color: $secondcolor;
     box-shadow: 2px 2px 5px #999;
     
-    p{
-        padding-top:15px;    
+    .equipo-p1{
+        padding-top:5px;    
     }
     img{
         @include sizes(60%,50%); 
@@ -853,6 +853,31 @@ body{
         padding:10px;
         box-shadow: 2px 2px 8px rgb(128, 128, 128);
     }
+}
+
+.canva{
+    position: relative;  
+    width: 78%; 
+    height: 84%; 
+    padding-top: 56.2500%;
+    padding-bottom: 48px; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform;
+    text-align: center;
+}
+.canva2{
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    border: none; 
+    padding: 0;
+    margin: 0;
 }
 /* PROYECTOS */
 .proyecto-titulo h4{
