@@ -1,7 +1,9 @@
 # Soy-Biomedico
 Página: https://stephanysamaniego.github.io/Soy-Biomedico/
 Google Docs : https://docs.google.com/document/d/1geQkdfpCG2SAPV8moQeEN1lPZUH446CV/edit?usp=sharing&ouid=109452474476450845711&rtpof=true&sd=true
- En el archivo index.html sumé el SEO con las siguientes características:
+WEBHOST : https://soy-biomedico.000webhostapp.com/
+
+En el archivo index.html sumé el SEO con las siguientes características:
 ●	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Blog informativo sobre proyectos innovadores y curiosidades destacadas en el campo de la biomedicina"
 ●	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "HTML, misión, visión, biomédica, noticias, ingeniería, biomecánica, clínica, tejidos"
 ●	Encabezado: para el encabezado del h1 utilicé el texto “Soy Biomédico”
