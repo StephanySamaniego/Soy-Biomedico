@@ -949,6 +949,14 @@ body {
   text-align: center;
 }
 
+.marg {
+  margin-top: 15px;
+}
+
+.margbott {
+  padding-bottom: 40px;
+}
+
 /* CURIOSIDADES */
 .curiosidad-caja {
   width: 100%;
